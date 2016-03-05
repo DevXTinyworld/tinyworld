@@ -11,7 +11,7 @@ var options = xsjs.extend({
 });
 
 // configure HANA
-//options = xsjs.extend(options, xsenv.getServices({ hana: {tag: "hana"} }));
+options = xsjs.extend(options, xsenv.getServices({ hana: {tag: "hana"} }));
 
 // configure UAA
 //options = xsjs.extend(options, xsenv.getServices({ uaa: {tag: "xsuaa"} }));
